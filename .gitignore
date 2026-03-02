@@ -1,0 +1,111 @@
+# ===========================
+# Maven Build Outputs
+# ===========================
+**/target/
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/pom.xml.next
+**/release.properties
+**/dependency-reduced-pom.xml
+**/buildNumber.properties
+**/.mvn/timing.properties
+**/.mvn/wrapper/maven-wrapper.jar
+
+# ===========================
+# Java
+# ===========================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# ===========================
+# Spring Boot
+# ===========================
+**/application-local.properties
+**/application-local.yml
+**/application-dev.properties
+**/application-dev.yml
+**/application-prod.properties
+**/application-prod.yml
+
+# ===========================
+# Docker
+# ===========================
+.docker/
+docker-compose.override.yml
+
+# ===========================
+# IDE - IntelliJ IDEA
+# ===========================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# ===========================
+# IDE - VS Code
+# ===========================
+.vscode/
+*.code-workspace
+
+# ===========================
+# IDE - Eclipse
+# ===========================
+.classpath
+.project
+.settings/
+.factorypath
+bin/
+
+# ===========================
+# IDE - NetBeans
+# ===========================
+nbproject/private/
+nbbuild/
+nbdist/
+nbactions.xml
+.nb-gradle/
+
+# ===========================
+# macOS
+# ===========================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# ===========================
+# Logs
+# ===========================
+*.log
+logs/
+spring.log
+
+# ===========================
+# Environment & Secrets
+# ===========================
+.env
+.env.*
+*.pem
+*.key
+*.cert
+secrets/
+
+# ===========================
+# Test Reports
+# ===========================
+**/surefire-reports/
+**/failsafe-reports/
+**/test-results/
